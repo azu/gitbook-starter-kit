@@ -2,6 +2,14 @@
 
 [GitBook](https://www.gitbook.com/)のスタートアップキット。
 
+以下のスライドでこの構成がどのように使われているかを解説しています。
+
+- [Markdownで書く電子書籍開発環境](http://azu.github.io/slide/niku_sushi/ebook_development.html "Markdownで書く電子書籍開発環境")
+
+実際にこの構成を利用しているプロジェクトとしては以下のものがあります。
+
+- [azu/JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture "azu/JavaScript-Plugin-Architecture")
+
 ## インストール
 
 GitBookを使った書籍を以下のようにするだけで書き始めることができます。
@@ -71,6 +79,7 @@ npm testで以下のテストが実行されます。
 詳しい設定方法については以下を参照して下さい。
 
 - [textlint + prhで表記ゆれを検出する | Web Scratch](http://efcl.info/2015/09/14/textlint-rule-prh/ "textlint + prhで表記ゆれを検出する | Web Scratch")
+- [textlintで日本語の文章をチェックする | Web Scratch](http://efcl.info/2015/09/10/introduce-textlint/ "textlintで日本語の文章をチェックする | Web Scratch")
 
 ## Contributing
 
