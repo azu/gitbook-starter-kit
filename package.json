@@ -15,9 +15,8 @@
     "eslint": "eslint src/**/*.js",
     "eslint:md": "eslint -c .md.eslintrc --ext .md ja/**/*.md",
     "textlint": "summary-to-path | xargs textlint -f pretty-error",
-    "test:example": "find ./src -name '*-example.js' | xargs babel-node",
     "test:js": "mocha",
-    "test": "npm-run-all --parallel test:js test:example textlint eslint:md eslint build"
+    "test": "npm-run-all --parallel test:js textlint eslint:md eslint build"
   },
   "keywords": [
     "gitbook",
