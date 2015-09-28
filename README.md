@@ -1,0 +1,82 @@
+# gitbook-start-kit
+
+[GitBook](https://www.gitbook.com/)のスタートアップキット。
+
+## Installation
+
+GitBookを使った書籍を以下のようにするだけで書き始めることができます。
+
+```
+git clone gitbook-start-kit
+npm install
+npm start
+```
+
+## Usage
+
+    npm start
+    
+GitBookのローカルサーバが立ち上がり、 http://localhost:4000/ にアクセスすることでプレビューできます。
+
+    npm run build
+
+単純にビルドだけをしたい場合は、`npm run build`で行うことができます。
+
+### 文章を追加する
+
+gitbook-start-kitでは以下のようなディレクトリ構造になっています。
+
+```
+.
+├── README.md
+├── SUMMARY.md <= 目次
+├── ja/ <= .mdの文章を追加する
+├── prh.yml
+├── src/ <= サンプルコード
+└── test/ <= サンプルコードのテスト
+```
+
+文章を追加する`ja/`というディレクトリ名には独別な意味はないため好きな名前に変更して問題ありません。
+
+文章を追加する場合は以下の手順で行うことができます。
+
+1. `ja/` 以下にMarkdownファイルで文章を追加する
+2. `SUMMARY.md` に追加したMarkdownファイルへのリンクを書く
+
+追加した後は`npm start`などでGitBookでプレビューすれば表示を確認することができます。
+(デフォルトで自動的にリロードされるようになっています。)
+
+
+## Tests
+
+
+    npm test
+
+
+npm testで以下のテストが実行されます。
+
+- [ESLint](http://eslint.org/ "ESLint")でのコードチェック
+- [textlint](https://github.com/azu/textlint "textlint")での文章チェック
+- [Mocha](http://mochajs.org/ "Mocha")でのテスト
+
+並列でテストを実行できるように[npm-run-all](https://github.com/mysticatea/npm-run-all "npm-run-all")を利用しています。
+テスト結果の表示が混ざるのが気になる場合は、`--parallel`オプションを外してみてください。
+
+## 表記揺れ
+
+[prh.yml](./prh.yml)に辞書を追加することで表記揺れをチェックすることができます。
+詳しい設定方法については以下を参照して下さい。
+
+- [textlint + prhで表記ゆれを検出する | Web Scratch](http://efcl.info/2015/09/14/textlint-rule-prh/ "textlint + prhで表記ゆれを検出する | Web Scratch")
+
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## License
+
+MIT
