@@ -66,7 +66,7 @@ npm testで以下のテストが実行されます。
 
 - [ESLint](http://eslint.org/ "ESLint")でのコードチェック
 - [textlint](https://github.com/azu/textlint "textlint")での文章チェック
-- [Mocha](http://mochajs.org/ "Mocha")でのテスト
+- [Mocha](http://mochajs.org/ "Mocha")でのサンプルコードのテスト
 
 並列でテストを実行できるように[npm-run-all](https://github.com/mysticatea/npm-run-all "npm-run-all")を利用しています。
 テスト結果の表示が混ざるのが気になる場合は、`--parallel`オプションを外してみてください。
