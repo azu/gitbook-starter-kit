@@ -1,6 +1,6 @@
 # gitbook-starter-kit
 
-[GitBook](https://www.gitbook.com/)のスタートアップキット。
+[GitBook](https://www.gitbook.com/)のスターターキット。
 
 以下のスライドでこの構成がどのように使われているかを解説しています。
 

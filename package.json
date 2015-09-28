@@ -3,7 +3,7 @@
   "private": true,
   "license": "MIT",
   "version": "1.0.0",
-  "description": "GitBook starter kit.",
+  "description": "GitBook Starter Kit.",
   "main": "index.js",
   "directories": {
     "test": "test"
