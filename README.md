@@ -6,7 +6,7 @@
 
 - [Markdownで書く電子書籍開発環境](http://azu.github.io/slide/niku_sushi/ebook_development.html "Markdownで書く電子書籍開発環境")
 
-実際にこの構成を利用しているプロジェクトとしては以下のものがあります。
+実際にこの構成を利用しているプロジェクトとして以下のものがあります。
 
 - [azu/JavaScript-Plugin-Architecture](https://github.com/azu/JavaScript-Plugin-Architecture "azu/JavaScript-Plugin-Architecture")
 
