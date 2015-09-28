@@ -7,8 +7,8 @@
 GitBookを使った書籍を以下のようにするだけで書き始めることができます。
 
 ```
-git clone https://github.com/azu/gitbook-starter-kit.git <好きなディレクトリ名>
-cd <好きなディレクトリ名>
+git clone https://github.com/azu/gitbook-starter-kit.git your-book-name
+cd your-book-name
 npm install
 ```
 
