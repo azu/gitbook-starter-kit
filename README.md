@@ -1,18 +1,18 @@
-# gitbook-start-kit
+# gitbook-starter-kit
 
 [GitBook](https://www.gitbook.com/)のスタートアップキット。
 
-## Installation
+## インストール
 
 GitBookを使った書籍を以下のようにするだけで書き始めることができます。
 
 ```
-git clone gitbook-start-kit
+git clone https://github.com/azu/gitbook-starter-kit.git <好きなディレクトリ名>
+cd <好きなディレクトリ名>
 npm install
-npm start
 ```
 
-## Usage
+## 使い方
 
     npm start
     
@@ -21,10 +21,11 @@ GitBookのローカルサーバが立ち上がり、 http://localhost:4000/ に�
     npm run build
 
 単純にビルドだけをしたい場合は、`npm run build`で行うことができます。
+(`_book/`にHTMLファイルが生成されます。)
 
 ### 文章を追加する
 
-gitbook-start-kitでは以下のようなディレクトリ構造になっています。
+gitbook-starter-kitでは以下のようなディレクトリ構造になっています。
 
 ```
 .
@@ -47,7 +48,7 @@ gitbook-start-kitでは以下のようなディレクトリ構造になってい
 (デフォルトで自動的にリロードされるようになっています。)
 
 
-## Tests
+## テスト
 
 
     npm test
