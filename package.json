@@ -2,7 +2,7 @@
   "name": "gitbook-starter-kit",
   "private": true,
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitBook Starter Kit.",
   "main": "index.js",
   "directories": {
