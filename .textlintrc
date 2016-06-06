@@ -1,13 +1,15 @@
 {
   "rules": {
-    "max-ten": {
-      "max": 3
-    },
-    "spellcheck-tech-word": true,
-    "no-mix-dearu-desumasu": true,
+    // 日本語プリセット
+    // https://github.com/azu/textlint-rule-preset-japanese
+    "preset-japanese": true,
+    // 同じ言葉で始まるかのチェック
+    // https://github.com/azu/textlint-rule-no-start-duplicated-conjunction
     "no-start-duplicated-conjunction": {
       "interval": 2
     },
+    // 辞書ファイルを使っての表記統一
+    // https://github.com/azu/textlint-rule-prh
     "prh": {
       "rulePaths": [
         "prh.yml"
