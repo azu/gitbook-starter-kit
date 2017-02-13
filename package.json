@@ -31,7 +31,6 @@
     "eslint-plugin-markdown": "git://github.com/eslint/eslint-plugin-markdown.git",
     "gitbook-cli": "^2.1.3",
     "gitbook-plugin-include-codeblock": "^3.0.0",
-    "gitbook-plugin-japanese-support": "0.0.1",
     "gulp": "^3.9.1",
     "gulp-textlint": "^2.0.0",
     "mocha": "^3.0.0",
