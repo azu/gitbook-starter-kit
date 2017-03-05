@@ -1,5 +1,6 @@
 {
   "gitbook": "3.x.x",
+  "root": "./book",
   "plugins": [
     "include-codeblock"
   ]
