@@ -1,2 +1,0 @@
-- [はじめに](ja/introduction.md)
-- [Hello World](ja/hello-world.md)
