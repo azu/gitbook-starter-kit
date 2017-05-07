@@ -1,5 +1,7 @@
 # gitbook-starter-kit
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/azu/gitbook-starter-kit.svg)](https://greenkeeper.io/)
+
 [GitBook](https://www.gitbook.com/)のスターターキット。
 
 以下のスライドでこの構成がどのように使われているかを解説しています。
