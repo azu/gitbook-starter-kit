@@ -87,3 +87,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Cache
+/.eslintcache
+/.textlintcache

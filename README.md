@@ -18,6 +18,9 @@ GitBookを使った書籍を以下のようにするだけで書き始めるこ�
 git clone https://github.com/azu/gitbook-starter-kit.git your-book-name
 cd your-book-name
 npm install
+# 必要に応じて不要な.git履歴を削除
+rm -rf .git/
+git init
 ```
 
 ## 使い方
