@@ -19,7 +19,7 @@ git clone https://github.com/azu/gitbook-starter-kit.git your-book-name
 cd your-book-name
 npm install
 # 必要に応じて不要な.git履歴を削除
-rm .git
+rm -rf .git/
 git init
 ```
 
