@@ -14,6 +14,9 @@
       "rulePaths": [
         "prh.yml"
       ]
+    },
+    "eslint": {
+      "configFile": "./.eslintrc.markdown.json"
     }
   }
 }
