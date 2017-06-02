@@ -16,5 +16,5 @@
 - [Mocha](http://mochajs.org/ "Mocha")
 - [power-assert](https://github.com/power-assert-js/power-assert "power-assert")
 
-この部分はそれぞれの好みに変更して利用するといいと思います。
+この部分はそれぞれの好みに変更して利用してください。
 

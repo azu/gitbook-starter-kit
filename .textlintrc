@@ -1,12 +1,16 @@
 {
   "rules": {
-    // 日本語プリセット
-    // https://github.com/azu/textlint-rule-preset-japanese
-    "preset-japanese": true,
-    // 同じ言葉で始まるかのチェック
-    // https://github.com/azu/textlint-rule-no-start-duplicated-conjunction
-    "no-start-duplicated-conjunction": {
-      "interval": 2
+    // 技術文書向けのtextlintルールプリセット
+    // https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing
+    "preset-ja-technical-writing": {
+      // !は許可
+      "no-exclamation-question-mark": {
+        "allowHalfWidthExclamation": true
+      },
+      // 連続できる漢字は6つまで
+      "max-kanji-continuous-len": {
+        "max": 6
+      }
     },
     // 辞書ファイルを使っての表記統一
     // https://github.com/azu/textlint-rule-prh

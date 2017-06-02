@@ -13,7 +13,7 @@
     "start": "gitbook serve",
     "build": "gitbook build",
     "eslint": "eslint --cache 'src/**/*.js'",
-    "textlint": "textlint --cache 'ja/**/*.md'",
+    "textlint": "textlint --cache 'ja/**/*.md' -f pretty-error",
     "test:js": "mocha",
     "test": "npm-run-all --parallel test:js textlint eslint build"
   },
@@ -35,6 +35,7 @@
     "textlint": "^8.0.0",
     "textlint-rule-eslint": "^2.0.0",
     "textlint-rule-no-start-duplicated-conjunction": "^1.0.7",
+    "textlint-rule-preset-ja-technical-writing": "^0.1.3",
     "textlint-rule-preset-japanese": "^1.3.2",
     "textlint-rule-prh": "^4.0.1"
   }

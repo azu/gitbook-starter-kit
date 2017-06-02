@@ -15,7 +15,7 @@ Hello World!
 - [azu/gitbook-plugin-include-codeblock](https://github.com/azu/gitbook-plugin-include-codeblock "azu/gitbook-plugin-include-codeblock")
 
 外部JavaScriptファイルはESLintによりチェックされます。
-ESLintのルールは[.eslintrc](../.eslintrc)で定義されています。
+ESLintのルールは[.eslintrc.json](../.eslintrc.json)で定義されています。
 
 また、インラインコードをCodeBlockに書いたJavaScriptもESLintによりチェックされます。
 
@@ -25,8 +25,8 @@ function helloWorld(name){
 }
 ```
 
-インラインコードのESLintのルールは[.md.eslintrc](../.md.eslintrc)で定義されています。
+インラインコードのESLintのルールは[.eslintrc.markdown.json](../.eslintrc.markdown.json)で定義されています。
 
-ESLintについての詳細は公式サイトを参照して下さい
+ESLintについての詳細は公式サイトを参照して下さい。
 
 - [ESLint - Pluggable JavaScript linter](http://eslint.org/ "ESLint - Pluggable JavaScript linter")
