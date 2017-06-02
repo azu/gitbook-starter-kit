@@ -86,7 +86,7 @@ npm testで以下のテストが実行されます。
 ### 表記揺れ
 
 [prh.yml](./prh.yml)に辞書を追加することで表記揺れをチェックすることができます。
-詳しい設定方法については以下を参照して下さい。
+詳しい設定方法については以下を参照してください。
 
 - [textlint + prhで表記ゆれを検出する | Web Scratch](http://efcl.info/2015/09/14/textlint-rule-prh/ "textlint + prhで表記ゆれを検出する | Web Scratch")
 

@@ -27,6 +27,6 @@ function helloWorld(name){
 
 インラインコードのESLintのルールは[.eslintrc.markdown.json](../.eslintrc.markdown.json)で定義されています。
 
-ESLintについての詳細は公式サイトを参照して下さい。
+ESLintについての詳細は公式サイトを参照してください。
 
 - [ESLint - Pluggable JavaScript linter](http://eslint.org/ "ESLint - Pluggable JavaScript linter")
