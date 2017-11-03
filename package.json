@@ -36,7 +36,6 @@
     "textlint-rule-eslint": "^2.0.0",
     "textlint-rule-no-start-duplicated-conjunction": "^1.0.7",
     "textlint-rule-preset-ja-technical-writing": "^2.0.0",
-    "textlint-rule-preset-japanese": "^2.0.0",
     "textlint-rule-prh": "^5.0.0"
   }
 }
