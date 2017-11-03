@@ -6,7 +6,7 @@ Hello World!
 [<LABEL>](path/to/file)
 ```
 
-`<LABEL>`部分に`import` または `include`と書くことでファイルを読み込んで、適切なCodeBlockとして展開することができます。
+`<LABEL>`部分に`import` または `include`と書くことでファイルを読み込んで、適切なCodeBlockとして展開できます。
 
 [import, hello-world.js](../src/hello-world.js)
 
