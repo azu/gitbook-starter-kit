@@ -35,7 +35,7 @@
     "textlint": "^10.0.0",
     "textlint-rule-eslint": "^3.0.0",
     "textlint-rule-no-start-duplicated-conjunction": "^2.0.0",
-    "textlint-rule-preset-ja-technical-writing": "^2.0.0",
+    "textlint-rule-preset-ja-technical-writing": "^3.0.0",
     "textlint-rule-prh": "^5.0.0"
   }
 }
